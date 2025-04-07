@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head><title>Complexity Analyzer</title></head>
-    <body>
-        <link rel=stylesheet href="front.css">
-        <h1 style="text-align: center;">Welcome to Complexity Analyzer</h1>
-        <input type="text" name="code" placeholder="Paste code here" style="text-align:center">
-        <h5 style="text-align:end;">@copyright for team</h5>
-        <p>this is all about time and space Complexity</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Complexity Analyzer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Complexity Analyzer</h1>
+        <label for="language-select">Select Language:</label>
+        <select id="language-select">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="csharp">C#</option>
+        </select>
 
+        <label for="codeInput">Enter Your Code:</label>
+        <textarea id="codeInput" placeholder="Write your code here..."></textarea>
+
+        <button class="analyze-button" onclick="analyzeCode()">Analyze</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

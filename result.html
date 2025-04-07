@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Analysis Result</h1>
+        <p class="result-text" id="timeComplexity"></p>
+        <p class="result-text" id="spaceComplexity"></p>
+        <button class="analyze-again" onclick="goBack()">Analyze Again</button>
+    </div>
+
+    <script>
+        const analysis = JSON.parse(localStorage.getItem("analysis"));
+        if (analysis) {
+            document.getElementById("timeComplexity").textContent = "Time Complexity: " + analysis.timeComplexity;
+            document.getElementById("spaceComplexity").textContent = "Space Complexity: " + analysis.spaceComplexity;
+        } else {
+            document.getElementById("timeComplexity").textContent = "No analysis data found.";
+        }
+
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
