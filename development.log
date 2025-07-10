@@ -11,3 +11,4 @@
 2025-06-16 10:54:21 -> Improve parser error handling
 2025-06-18 15:47:33 -> Refactor analysis workflow
 2025-07-10 09:38:19 -> Implement recursion detection logic
+2025-07-10 17:13:07 -> Add recursive complexity estimation
