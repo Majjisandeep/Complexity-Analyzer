@@ -16,3 +16,4 @@
 2025-07-11 20:22:31 -> Support O(1) and O(n) detection
 2025-07-12 08:56:13 -> Add logarithmic pattern detection
 2025-07-12 16:41:26 -> Improve AST node analysis coverage
+2025-07-13 12:05:44 -> Implement complexity report generator
