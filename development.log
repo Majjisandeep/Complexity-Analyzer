@@ -25,3 +25,4 @@
 2025-08-10 17:58:21 -> Create Java parser integration layer
 2025-08-11 09:24:18 -> Implement Java loop detection
 2025-08-11 15:46:53 -> Add Java recursion analysis
+2025-08-12 11:31:09 -> Create language selection feature
