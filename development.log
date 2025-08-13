@@ -27,3 +27,4 @@
 2025-08-11 15:46:53 -> Add Java recursion analysis
 2025-08-12 11:31:09 -> Create language selection feature
 2025-08-12 18:17:26 -> Refactor parser abstraction layer
+2025-08-13 13:08:47 -> Improve cross-language support
