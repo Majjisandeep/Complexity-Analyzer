@@ -30,3 +30,4 @@
 2025-08-13 13:08:47 -> Improve cross-language support
 2025-08-14 09:52:33 -> Add complexity comparison module
 2025-08-15 16:27:15 -> Implement report export feature
+2025-08-16 12:14:38 -> Fix parser edge cases
